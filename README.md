@@ -1,2 +1,0 @@
-# CustomerStatementProcessor
-Customer Statement Processor
