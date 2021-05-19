@@ -1,12 +1,14 @@
 # CustomerStatementProcessor
-Customer Statement Processor
+This is a Java/Maven project that implements a service for validating customer statement transactions based on the transaction references ID and ending balance.
+
+**Some notes:**
+-	if the request json does not have all the required fields(or field name mismatches), the service produce BAD_REQUEST response similar to json parsing problems. we could change this easily.
+-	on duplicate reference, id the service response with current record value(not the previous record with the same transaction id) based on assignment document
 
 ## Test instruction
-
 `mvn test`
-	
-## Run instruction
 
+## Run instruction
 `mvn spring-boot:run` 
 
 server starts at default port (8080).
