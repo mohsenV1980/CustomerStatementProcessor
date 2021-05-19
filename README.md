@@ -5,6 +5,9 @@ This is a Java/Maven project that implements a service for validating customer s
 -	if the request json does not have all the required fields(or field name mismatches), the service produce BAD_REQUEST response similar to json parsing problems. we could change this easily.
 -	on duplicate reference, id the service response with current record value(not the previous record with the same transaction id) based on assignment document
 
+## clone source code
+`git clone  "https://github.com/mohsenV1980/CustomerStatementProcessor.git" .`
+
 ## Test instruction
 `mvn test`
 
