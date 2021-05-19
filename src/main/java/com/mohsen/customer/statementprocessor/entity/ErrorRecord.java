@@ -12,10 +12,10 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class ErrorRecord {
-	
+
 	private BigInteger reference;
-	
+
 	@JsonProperty("AccountNumber")
 	private String AccountNo;
-	
+
 }
